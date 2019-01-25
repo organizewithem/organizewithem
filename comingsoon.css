@@ -50,3 +50,30 @@ hr {
     margin: auto;
     width: 40%;
 }
+
+/*form styles*/
+form {
+	padding: 0.5em;
+	background-color: black;
+}
+fieldset {
+	margin-bottom: 0.5em;
+	padding: 2.5em 2% 0.5em;
+	position: relative;
+	background-color: midnightblue;
+}
+fieldset fieldset {
+	padding-top: 0.4em;
+	border: 2px solid black;
+}
+form > fieldset > legend {
+	font-size: 1.25em;
+	font-family: PTSansCaption, Georgia, "Times New Roman", Times, serif;
+	position: absolute;
+	top: 0.6em;
+}
+.submit {
+	padding: 0.5em 0;
+	margin-bottom: 0;
+	text-align: center;
+}
