@@ -80,7 +80,7 @@ form > fieldset > legend {
 }
 .contact label {
 	position: relative;
-	
+	text-align: center;
 	display:block;
 	clear: right;
 	clear: left;
