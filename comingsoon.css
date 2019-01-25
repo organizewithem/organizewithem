@@ -81,4 +81,5 @@ form > fieldset > legend {
 .contact label {
 	position: relative;
 	display:block;
+	clear: right;
 }
