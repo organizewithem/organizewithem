@@ -70,7 +70,7 @@ fieldset fieldset {
 form > fieldset > legend {
 	font-size: 1.25em;
 	font-family: PTSansCaption, Georgia, "Times New Roman", Times, serif;
-	position: absolute;
+	position: relativev;
 	top: 0.6em;
 }
 .submit {
@@ -80,6 +80,11 @@ form > fieldset > legend {
 }
 .contact label {
 	position: relative;
+	
 	display:block;
 	clear: right;
+	clear: left;
+}
+.additional label {
+	width: 100%;
 }
