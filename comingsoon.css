@@ -52,6 +52,7 @@ hr {
 }
 
 /*form styles*/
+
 form {
 	padding: 0.5em;
 	background-color: black;
@@ -76,4 +77,8 @@ form > fieldset > legend {
 	padding: 0.5em 0;
 	margin-bottom: 0;
 	text-align: center;
+}
+.contact label {
+	position: relative;
+	display:block;
 }
