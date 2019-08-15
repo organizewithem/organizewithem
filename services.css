@@ -1,0 +1,154 @@
+/* reset styles */
+html {
+   font-size: 20px;
+   width: 100%;
+}
+a, article, body, div, figcaption, figure, form, fieldset, text-area, 
+footer, header, h1, h2, h3, img, nav, p, dl, dt, dd {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+ul, ol{
+	list-style-type: none;
+}
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100%
+}
+
+.bgimg {
+    /* Background image */
+    background-image: url('leather.jpg');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+}
+/* Site navigation */
+.sitenavigation {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+  display:block;
+}
+.sitenavigation a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+.sitenavigation a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: red;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+div.navigation-menu-button {
+	float: right;
+}
+nav.sitenavigation {
+   padding: 2%;
+   text-align: center;
+   background-color: black;
+}
+nav.sitenavigation a:link {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+.dropdown-content a:visited {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+.ham{
+	width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.nav, .dropbtn {
+	display:none;
+}
+.dropdown {
+	display:none;
+}
+/* Main content*/
+/*.container {
+   max-width: 100%;
+   margin: 0 auto;
+   border-left: 3px solid black;
+   border-right: 3px solid black;
+   position: relative;
+}*/
+h1 {
+	text-align:center;
+}
+/*List styles*/
+ol.servicelist {
+	text-align: center;
+	list-style-position: inside;
+}
+ul.sublist {
+	text-align: center;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+.servicelist li {
+	border-bottom: 3px white;
+}
+p:after {
+	content:"";
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 5px;
+	border-bottom: 3px solid;
+}
+	
+	
